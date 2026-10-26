@@ -1,0 +1,160 @@
+{
+  "reference": "https://jiro.build/templates/marketing-sales/ai-marketing-landing-page-kelo",
+  "license": "参考设计和素材商业再分发许可尚未核实，字体许可见运行字体目录 README。",
+  "assets": [
+    {
+      "file": "airtable.svg",
+      "url": "https://cdn.simpleicons.org/airtable/18BFFF",
+      "bytes": 667,
+      "sha256": "752f03ea13cc75d90de50fc09abf60b6144d1382da4c8881f51abdbde599572a",
+      "status": "locally-hosted"
+    },
+    {
+      "file": "avatar.jpg",
+      "url": "https://picsum.photos/seed/collab1/100/100",
+      "bytes": 1374,
+      "sha256": "bd7a0f4d098388d008ea456cbb9918cf3a534b47f63c31b1b9fc479b8a60d974",
+      "status": "locally-hosted"
+    },
+    {
+      "file": "desk.jpeg",
+      "url": "https://cdn.jiro.build/Kelo/a-worn-vintage-yellow-wooden-desk-sitting-in-an-op.jpeg",
+      "bytes": 541936,
+      "sha256": "a073a985d471810ecaaa22aa095afa5c881417ec930e283fabb6e97f90e16cc9",
+      "status": "locally-hosted"
+    },
+    {
+      "file": "discord.svg",
+      "url": "https://cdn.simpleicons.org/discord/5865F2",
+      "bytes": 1389,
+      "sha256": "79a8105c2fc15d8caa6ee7b87b58597432e171386d22a2cc2237f0eb3bbbe7dd",
+      "status": "locally-hosted"
+    },
+    {
+      "file": "dropbox.svg",
+      "url": "https://cdn.simpleicons.org/dropbox/0061FE",
+      "bytes": 351,
+      "sha256": "c367b54580af3803cf5bc6432c4999f49912bd4b2bb022e40242e6c2757926f8",
+      "status": "locally-hosted"
+    },
+    {
+      "file": "framer.svg",
+      "url": "https://cdn.simpleicons.org/framer/0055FF",
+      "bytes": 161,
+      "sha256": "a4e3c4d0edab0a63056ac0a46a27f914a9d58bdd1db169e0c91d9a293c70468b",
+      "status": "locally-hosted"
+    },
+    {
+      "file": "gmail.svg",
+      "url": "https://cdn.simpleicons.org/gmail/EA4335",
+      "bytes": 354,
+      "sha256": "21b263638deb769267d610a85382792624bdae2fc47c1bc2f8ae6fb6a50413e9",
+      "status": "locally-hosted"
+    },
+    {
+      "file": "hero-poster.jpg",
+      "url": "derived: hero.mp4 frame",
+      "bytes": 49050,
+      "sha256": "ce4e2c01ada0dcefcca286c939a8efd90be8fac9a15a6975ff3d12a9d5bd08f9",
+      "status": "locally-hosted"
+    },
+    {
+      "file": "hero.mp4",
+      "url": "https://cdn.jiro.build/Kelo/Hero%202%20Video.mp4",
+      "bytes": 2062375,
+      "sha256": "3d34c0bd6b5a2c2fe7add5c9c805b98a6e98123ac633e72ffc486bdaa01cdf10",
+      "status": "locally-hosted"
+    },
+    {
+      "file": "interior.jpg",
+      "url": "https://cdn.jiro.build/Kelo/the-interior-of-a-vintage-retro-train-carriage-wit.jpg",
+      "bytes": 836367,
+      "sha256": "cc49e1e430a0749b2b6c75ff4e560cf32dba6ba832d60f539564fa0f06da2928",
+      "status": "locally-hosted"
+    },
+    {
+      "file": "landscape.jpg",
+      "url": "https://cdn.jiro.build/Kelo/a-breathtaking-3d-rendered-landscape-of-smooth-rol.jpg",
+      "bytes": 525204,
+      "sha256": "c6ce1cfaa5a17557cce6b64481a55daf5f095132fa5ddc3c30371e5e02aa01dc",
+      "status": "locally-hosted"
+    },
+    {
+      "file": "logo-mark.svg",
+      "url": "https://cdn.jiro.build/Kelo/Kelo%20White.svg",
+      "bytes": 867,
+      "sha256": "3cc2283e6002546d74d65322b63d4f246c9c907929d763027c6bbaa3137e0eec",
+      "status": "locally-hosted"
+    },
+    {
+      "file": "notion.svg",
+      "url": "https://cdn.simpleicons.org/notion/000000",
+      "bytes": 993,
+      "sha256": "fdddc8f06178df169036d3f5fc336eb98b15cad375afa04d0a5cd7aa61b65739",
+      "status": "locally-hosted"
+    },
+    {
+      "file": "office.jpg",
+      "url": "https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&q=80&w=1200",
+      "bytes": 117648,
+      "sha256": "c5c57791868384517fc58d770bd31ef697db8f20d82c2472fcdfbca4746cd9c9",
+      "status": "locally-hosted"
+    },
+    {
+      "file": "process.jpg",
+      "url": "https://cdn.jiro.build/Kelo/67594d4535b941c71eee76123efaf48a.jpg",
+      "bytes": 104505,
+      "sha256": "3e40fb705d23813c0e08d782b3e52977ee981b169f2fdedf6e1deb2e25eda835",
+      "status": "locally-hosted"
+    },
+    {
+      "file": "shopify.svg",
+      "url": "https://cdn.simpleicons.org/shopify/7AB55C",
+      "bytes": 1249,
+      "sha256": "73b7faee1aa8969eba999c3d6622ece507a6415039592185e85ce7bb6244ddc2",
+      "status": "locally-hosted"
+    },
+    {
+      "file": "team-1.jpg",
+      "url": "https://picsum.photos/seed/collab1/100/100",
+      "bytes": 1374,
+      "sha256": "bd7a0f4d098388d008ea456cbb9918cf3a534b47f63c31b1b9fc479b8a60d974",
+      "status": "locally-hosted"
+    },
+    {
+      "file": "team-2.jpg",
+      "url": "https://picsum.photos/seed/collab2/100/100",
+      "bytes": 2638,
+      "sha256": "36e12d5ef848399aa3bd3500c1cb2d48274cc4318257bbc1045ff5dee047584f",
+      "status": "locally-hosted"
+    },
+    {
+      "file": "team-3.jpg",
+      "url": "https://picsum.photos/seed/collab3/100/100",
+      "bytes": 3027,
+      "sha256": "ee2e9ff3c64eec9a02a5d7e681eab5a0931056bdf4bab52200cf280725596373",
+      "status": "locally-hosted"
+    },
+    {
+      "file": "team-4.jpg",
+      "url": "https://picsum.photos/seed/collab4/100/100",
+      "bytes": 3602,
+      "sha256": "97d29abde072a81f547eb391247b5deb2809de1fa5f86aea4eaf5ae2da091b4a",
+      "status": "locally-hosted"
+    },
+    {
+      "file": "train.jpeg",
+      "url": "https://cdn.jiro.build/Kelo/interior-of-an-old-abandoned-vintage-train-carriag.jpeg",
+      "bytes": 694015,
+      "sha256": "6ca8781595d78be21955f41ab98172280e95082eeb62fc4c43dbbbb27643601e",
+      "status": "locally-hosted"
+    },
+    {
+      "file": "vercel.svg",
+      "url": "https://cdn.simpleicons.org/vercel/000000",
+      "bytes": 147,
+      "sha256": "075b9d221ef5a7ea63d85f140bd2d63007f31d3ed8ceec011abc3ffd529827e3",
+      "status": "locally-hosted"
+    }
+  ]
+}

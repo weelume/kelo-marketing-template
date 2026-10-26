@@ -1,0 +1,251 @@
+{
+  "$schema": "./schemas/template.schema.json",
+  "format": "git-template",
+  "formatVersion": "0.2.0",
+  "id": "kelo-marketing",
+  "version": "1.0.0",
+  "gitUrl": "https://github.com/weelume/kelo-marketing-template",
+  "name": "Kelo Marketing · AI 营销",
+  "localizedNames": {
+    "en": "Kelo Marketing · AI Marketing"
+  },
+  "sceneId": "landing-page",
+  "listed": false,
+  "tags": [
+    "AI营销",
+    "视频背景",
+    "数据面板",
+    "四阶段流程",
+    "双语"
+  ],
+  "summary": "视频首屏与深色营销面板，包含实时图表、四阶段销售自动化、集成网格、成果数据、价格和玻璃 FAQ。",
+  "accentColor": "#00bc7d",
+  "cover": "assets/desktop-home.webp",
+  "screenshots": [
+    {
+      "src": "assets/desktop-home.webp",
+      "alt": "Kelo Marketing desktop home",
+      "device": "desktop",
+      "width": 1425,
+      "height": 990,
+      "surfaceId": "site",
+      "pageSlug": ""
+    },
+    {
+      "src": "assets/desktop-features.webp",
+      "alt": "Kelo Marketing desktop features",
+      "device": "desktop",
+      "width": 1425,
+      "height": 990,
+      "surfaceId": "site",
+      "pageSlug": "features"
+    },
+    {
+      "src": "assets/desktop-blog.webp",
+      "alt": "Kelo Marketing desktop blog",
+      "device": "desktop",
+      "width": 1425,
+      "height": 990,
+      "surfaceId": "site",
+      "pageSlug": "blog"
+    },
+    {
+      "src": "assets/desktop-contact.webp",
+      "alt": "Kelo Marketing desktop contact",
+      "device": "desktop",
+      "width": 1425,
+      "height": 990,
+      "surfaceId": "site",
+      "pageSlug": "contact"
+    },
+    {
+      "src": "assets/tablet-home.webp",
+      "alt": "Kelo Marketing tablet home",
+      "device": "tablet",
+      "width": 819,
+      "height": 1159,
+      "surfaceId": "site",
+      "pageSlug": ""
+    },
+    {
+      "src": "assets/tablet-features.webp",
+      "alt": "Kelo Marketing tablet features",
+      "device": "tablet",
+      "width": 819,
+      "height": 1159,
+      "surfaceId": "site",
+      "pageSlug": "features"
+    },
+    {
+      "src": "assets/tablet-blog.webp",
+      "alt": "Kelo Marketing tablet blog",
+      "device": "tablet",
+      "width": 819,
+      "height": 1159,
+      "surfaceId": "site",
+      "pageSlug": "blog"
+    },
+    {
+      "src": "assets/tablet-contact.webp",
+      "alt": "Kelo Marketing tablet contact",
+      "device": "tablet",
+      "width": 819,
+      "height": 1159,
+      "surfaceId": "site",
+      "pageSlug": "contact"
+    },
+    {
+      "src": "assets/mobile-home.webp",
+      "alt": "Kelo Marketing mobile home",
+      "device": "mobile",
+      "width": 375,
+      "height": 812,
+      "surfaceId": "site",
+      "pageSlug": ""
+    },
+    {
+      "src": "assets/mobile-features.webp",
+      "alt": "Kelo Marketing mobile features",
+      "device": "mobile",
+      "width": 375,
+      "height": 812,
+      "surfaceId": "site",
+      "pageSlug": "features"
+    },
+    {
+      "src": "assets/mobile-blog.webp",
+      "alt": "Kelo Marketing mobile blog",
+      "device": "mobile",
+      "width": 375,
+      "height": 812,
+      "surfaceId": "site",
+      "pageSlug": "blog"
+    },
+    {
+      "src": "assets/mobile-contact.webp",
+      "alt": "Kelo Marketing mobile contact",
+      "device": "mobile",
+      "width": 375,
+      "height": 812,
+      "surfaceId": "site",
+      "pageSlug": "contact"
+    }
+  ],
+  "surfaces": [
+    {
+      "id": "site",
+      "name": "官网",
+      "platform": "pc",
+      "locales": [
+        "zh",
+        "en"
+      ],
+      "pages": [
+        {
+          "slug": "",
+          "title": "首页",
+          "localizedTitles": {
+            "en": "Home"
+          }
+        },
+        {
+          "slug": "features",
+          "title": "产品功能",
+          "localizedTitles": {
+            "en": "Features"
+          }
+        },
+        {
+          "slug": "solutions",
+          "title": "解决方案",
+          "localizedTitles": {
+            "en": "Solutions"
+          }
+        },
+        {
+          "slug": "integrations",
+          "title": "集成目录",
+          "localizedTitles": {
+            "en": "Integrations"
+          }
+        },
+        {
+          "slug": "pricing",
+          "title": "价格方案",
+          "localizedTitles": {
+            "en": "Pricing"
+          }
+        },
+        {
+          "slug": "about",
+          "title": "关于我们",
+          "localizedTitles": {
+            "en": "About"
+          }
+        },
+        {
+          "slug": "faq",
+          "title": "帮助中心",
+          "localizedTitles": {
+            "en": "Help center"
+          }
+        },
+        {
+          "slug": "blog",
+          "title": "营销洞察",
+          "localizedTitles": {
+            "en": "Insights"
+          }
+        },
+        {
+          "slug": "blog/intent-signals",
+          "title": "意向信号",
+          "localizedTitles": {
+            "en": "Intent signals"
+          }
+        },
+        {
+          "slug": "blog/brand-consistency",
+          "title": "品牌一致性",
+          "localizedTitles": {
+            "en": "Brand consistency"
+          }
+        },
+        {
+          "slug": "blog/growth-metrics",
+          "title": "增长指标",
+          "localizedTitles": {
+            "en": "Growth metrics"
+          }
+        },
+        {
+          "slug": "contact",
+          "title": "联系我们",
+          "localizedTitles": {
+            "en": "Contact"
+          }
+        },
+        {
+          "slug": "privacy",
+          "title": "隐私政策",
+          "localizedTitles": {
+            "en": "Privacy policy"
+          }
+        },
+        {
+          "slug": "terms",
+          "title": "服务条款",
+          "localizedTitles": {
+            "en": "Terms of service"
+          }
+        }
+      ]
+    }
+  ],
+  "license": {
+    "type": "restricted",
+    "file": "docs/LICENSE.md",
+    "summary": "参考设计与素材的商业再分发许可尚未核实；字体保留自身许可。",
+    "redistributionAllowed": false
+  }
+}

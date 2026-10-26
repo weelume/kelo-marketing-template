@@ -1,0 +1,85 @@
+{
+  "format": "git-template-customization",
+  "formatVersion": "0.2.0",
+  "entries": [
+    {
+      "id": "brand",
+      "title": "品牌与宿主适配",
+      "description": "修改品牌、Logo、年份与可选宿主入口",
+      "files": [
+        {
+          "path": "src/features/site-templates/catalog/kelo-marketing/config/brand.ts",
+          "kind": "file",
+          "purpose": "独立品牌"
+        },
+        {
+          "path": "src/features/site-templates/catalog/kelo-marketing/host.tsx",
+          "kind": "file",
+          "purpose": "宿主注入边界"
+        }
+      ],
+      "constraints": [
+        "独立品牌与宿主品牌隔离"
+      ],
+      "checks": [
+        "typecheck"
+      ]
+    },
+    {
+      "id": "content",
+      "title": "双语内容与页面",
+      "description": "同步编辑中英文并维护路由元数据",
+      "files": [
+        {
+          "path": "src/features/site-templates/catalog/kelo-marketing/content",
+          "kind": "directory",
+          "purpose": "双语数据"
+        },
+        {
+          "path": "src/features/site-templates/catalog/kelo-marketing/pages",
+          "kind": "directory",
+          "purpose": "页面组合"
+        }
+      ],
+      "constraints": [
+        "保留表单仅本地演示的明确提示"
+      ],
+      "checks": [
+        "typecheck",
+        "test"
+      ]
+    },
+    {
+      "id": "theme",
+      "title": "主题和动效",
+      "description": "修改主题令牌、响应式布局及按区域区分的动效",
+      "files": [
+        {
+          "path": "src/features/site-templates/catalog/kelo-marketing/tokens.css",
+          "kind": "file",
+          "purpose": "主题变量"
+        },
+        {
+          "path": "src/features/site-templates/catalog/kelo-marketing/theme.css",
+          "kind": "file",
+          "purpose": "布局样式"
+        },
+        {
+          "path": "src/features/site-templates/catalog/kelo-marketing/components",
+          "kind": "directory",
+          "purpose": "公共区块与动效"
+        }
+      ],
+      "constraints": [
+        "尊重减少动态效果设置",
+        "不增加装饰箭头"
+      ],
+      "checks": [
+        "typecheck",
+        "lint",
+        "build"
+      ]
+    }
+  ],
+  "$schema": "./schemas/customization.schema.json"
+}

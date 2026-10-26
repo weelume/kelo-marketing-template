@@ -1,0 +1,85 @@
+{
+  "$schema": "../schemas/verification.schema.json",
+  "format": "git-template-verification",
+  "formatVersion": "0.2.0",
+  "status": "passed",
+  "checkedAt": "2026-10-26T01:12:18.366Z",
+  "sourceCommit": null,
+  "sourceDigest": "8077b631ecd2dc3d1f7256ccd98a7e682863d57655842de3eb3f7d66f32ffef0",
+  "checks": [
+    {
+      "id": "typecheck",
+      "cwd": ".",
+      "argv": [
+        "pnpm",
+        "run",
+        "typecheck"
+      ],
+      "status": "passed",
+      "exitCode": 0,
+      "startedAt": "2026-10-26T01:07:42.012Z",
+      "finishedAt": "2026-10-26T01:07:44.285Z"
+    },
+    {
+      "id": "lint",
+      "cwd": ".",
+      "argv": [
+        "pnpm",
+        "run",
+        "lint"
+      ],
+      "status": "passed",
+      "exitCode": 0,
+      "startedAt": "2026-10-26T01:07:44.291Z",
+      "finishedAt": "2026-10-26T01:07:46.689Z"
+    },
+    {
+      "id": "test",
+      "cwd": ".",
+      "argv": [
+        "pnpm",
+        "run",
+        "test"
+      ],
+      "status": "passed",
+      "exitCode": 0,
+      "startedAt": "2026-10-26T01:07:46.693Z",
+      "finishedAt": "2026-10-26T01:07:47.451Z"
+    },
+    {
+      "id": "build",
+      "cwd": ".",
+      "argv": [
+        "pnpm",
+        "run",
+        "build"
+      ],
+      "status": "passed",
+      "exitCode": 0,
+      "startedAt": "2026-10-26T01:07:47.454Z",
+      "finishedAt": "2026-10-26T01:08:04.384Z"
+    }
+  ],
+  "services": [
+    {
+      "id": "web",
+      "status": "passed",
+      "stopped": true,
+      "checkedAt": "2026-10-26T01:08:04.986Z"
+    }
+  ],
+  "environment": {
+    "platform": "linux",
+    "arch": "x64",
+    "node": "v24.16.0",
+    "packageManager": "pnpm 9.15.4",
+    "cleanDirectory": false,
+    "localGitClone": false
+  },
+  "limitations": [
+    "系统减少动态效果未进行真实设置切换验收。",
+    "原参考与实现的全部三端逐帧时序、悬停/按压和长时间循环矩阵未完整对照；应用检查通过不代表完整复刻逐帧验收。",
+    "使用既有本地 Linux 验收目录，不是独立干净 Git 克隆。",
+    "参考素材商业再分发许可尚未完整核实，未市场上架。"
+  ]
+}
